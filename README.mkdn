@@ -1,0 +1,16 @@
+TripNDroid Mobile Engineering
+===========
+
+Getting Started
+---------------
+
+To get started with TripNDroid roms, you'll need to get
+familiar with [Git and Repo](http://source.android.com/download/using-repo).
+
+To initialize your local repository using the TripNDroid trees, use a command like this:
+
+    repo init -u git://github.com/TripNRaVeR/android.git -b master
+
+Then to sync up:
+
+    repo sync
