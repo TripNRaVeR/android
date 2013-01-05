@@ -13,9 +13,6 @@
   <remote  name="linaro"
            fetch="git://android.git.linaro.org/" />
 
-  <remote  name="linaro-other"
-           fetch="git://git.linaro.org/" />
-
   <default revision="refs/heads/cm-10.1"
            remote="github"
            sync-c="true"
@@ -28,7 +25,7 @@
   <project path="android" name="android" remote="tripndroid" revision="master" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
-  <project path="bionic" name="platform/bionic" remote="linaro" revision="linaro_android_4.2.1" />
+  <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
@@ -112,7 +109,7 @@
   <project path="external/jhead" name="CyanogenMod/android_external_jhead" />
   <project path="external/jmdns" name="CyanogenMod/android_external_jmdns" />
   <project path="external/jmonkeyengine" name="CyanogenMod/android_external_jmonkeyengine" />
-  <project path="external/jpeg" name="people/tomgall/libjpeg-turbo/libjpeg-turbo" revision="android" remote="linaro-other" />
+  <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" />
   <project path="external/jsilver" name="CyanogenMod/android_external_jsilver" />
   <project path="external/jsr305" name="CyanogenMod/android_external_jsr305" />
   <project path="external/junit" name="CyanogenMod/android_external_junit" />
