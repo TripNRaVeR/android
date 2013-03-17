@@ -334,7 +334,7 @@
   <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
   <project path="system/security" name="CyanogenMod/android_system_security" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" />
+  <project path="system/vold" name="android_system_vold" remote="tripndroid" revision="master" />
   <project path="tools/build" name="platform/tools/build" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="vendor/htc/endeavoru" name="android_vendor_htc_endeavoru" remote="tripndroid" revision="jellybean"  />
   <project path="vendor/google" name="android_vendor_google" remote="tripndroid" revision="master" />
