@@ -256,7 +256,7 @@
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
-  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="tripndroid" revision="master" />
+  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="tripndroid" revision="cm" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/FileManager" name="android_packages_apps_FileManager" remote="tripndroid" revision="master" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
