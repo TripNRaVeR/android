@@ -14,7 +14,7 @@
   <remote  name="linaro"
            fetch="git://android.git.linaro.org/" />
 
-  <default revision="refs/tags/cm-10.1.0-RC4"
+  <default revision="refs/heads/cm-10.1-staging"
            remote="github"
            sync-c="true"
            sync-j="4" />
