@@ -74,7 +74,7 @@
   <project path="external/easymock" name="CyanogenMod/android_external_easymock" />
   <project path="external/eclipse-basebuilder" name="CyanogenMod/android_external_eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="CyanogenMod/android_external_eclipse-windowbuilder" />
-  <project path="external/elfutils" name="platform/external/elfutils" remote="linaro" revision="linaro_android_4.2.2" />
+  <project path="external/elfutils" name="CyanogenMod/android_external_elfutils" />
   <project path="external/embunit" name="CyanogenMod/android_external_embunit" />
   <project path="external/emma" name="CyanogenMod/android_external_emma" />
   <project path="external/esd" name="CyanogenMod/android_external_esd" />
