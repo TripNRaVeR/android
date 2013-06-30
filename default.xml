@@ -327,7 +327,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="sdk" name="platform/sdk" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
-  <project path="system/core" name="CyanogenMod/android_system_core" />
+  <project path="system/core" name="android_system_core" remote="tripndroid" revision="master" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
