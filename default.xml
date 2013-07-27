@@ -19,7 +19,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="tripndroid" revision="cm-10.1">
+  <project path="build" name="android_build" remote="tripndroid" revision="master-43">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -37,7 +37,7 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="tripndroid" revision="jellybean"  />
-  <project path="device/htc/m7" name="android_device_htc_m7" remote="tripndroid" revision="master"  />
+  <project path="device/htc/m7" name="android_device_htc_m7" remote="tripndroid" revision="master-43"  />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" />
@@ -283,7 +283,7 @@
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
-  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="tripndroid" revision="cm" />
+  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="tripndroid" revision="master-43" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/FileManager" name="android_packages_apps_FileManager" remote="tripndroid" revision="master" />
@@ -303,7 +303,7 @@
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="tripndroid" revision="master" />
   <project path="packages/apps/Notepad" name="android_packages_apps_Notepad" remote="tripndroid" revision="master" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
-  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="tripndroid" revision="master" />
+  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="tripndroid" revision="master-43" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="tripndroid" revision="master" />
