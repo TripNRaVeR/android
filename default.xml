@@ -380,7 +380,7 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="vendor/google" name="android_vendor_google" remote="tripndroid" revision="master-43" />
-  <project path="vendor/htc/endeavoru" name="android_vendor_htc_endeavoru" remote="tripndroid" revision="master" />
+  <project path="vendor/htc/endeavoru" name="android_vendor_htc_endeavoru" remote="tripndroid" revision="jellybean" />
   <project path="vendor/htc/m7" name="android_vendor_htc_m7" remote="tripndroid" revision="master-43" />
   <project path="vendor/tripndroid" name="android_vendor_tripndroid" remote="tripndroid" revision="master-43" />
   <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" />
