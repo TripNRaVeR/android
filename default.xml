@@ -307,6 +307,7 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="tripndroid" revision="master-43" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="tripndroid" revision="master-43" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="tripndroid" revision="master-43" />
+  <project path="packages/apps/Music" name="android_packages_apps_Music" remote="tripndroid" revision="master-43" />
   <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/Notepad" name="android_packages_apps_Notepad" remote="tripndroid" revision="master" />
