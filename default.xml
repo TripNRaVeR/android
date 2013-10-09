@@ -34,7 +34,6 @@
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="development" name="CyanogenMod/android_development" />
-  <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="tripndroid" revision="jellybean"  />
   <project path="device/htc/m7" name="android_device_htc_m7" remote="tripndroid" revision="master-43"  />
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" />
@@ -64,6 +63,7 @@
   <project path="external/chromium-trace" name="CyanogenMod/android_external_chromium-trace" groups="pdk" />
   <project path="external/clang" name="CyanogenMod/android_external_clang" groups="pdk" />
   <project path="external/compiler-rt" name="CyanogenMod/android_external_compiler-rt" groups="pdk" />
+  <project path="external/crda" name="CyanogenMod/android_external_crda" />
   <project path="external/dexmaker" name="CyanogenMod/android_external_dexmaker" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" />
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" groups="pdk" />
@@ -209,7 +209,6 @@
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="tripndroid" revision="master-43" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" groups="pdk" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" />
-  <project path="external/stressapptest" name="CyanogenMod/android_external_stressapptest" />
   <project path="external/svox" name="CyanogenMod/android_external_svox" />
   <project path="external/tagsoup" name="CyanogenMod/android_external_tagsoup" />
   <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" />
@@ -366,19 +365,18 @@
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
+  <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
-  <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r3.1" />  
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="vendor/google" name="android_vendor_google" remote="tripndroid" revision="master-43" />
-  <project path="vendor/htc/endeavoru" name="android_vendor_htc_endeavoru" remote="tripndroid" revision="jellybean" />
   <project path="vendor/htc/m7" name="android_vendor_htc_m7" remote="tripndroid" revision="master-43" />
   <project path="vendor/tripndroid" name="android_vendor_tripndroid" remote="tripndroid" revision="master-43" />
   <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" />
