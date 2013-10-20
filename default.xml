@@ -61,7 +61,7 @@
   <project path="external/checkpolicy" name="CyanogenMod/android_external_checkpolicy" groups="pdk" />
   <project path="external/chromium" name="CyanogenMod/android_external_chromium" />
   <project path="external/chromium-trace" name="CyanogenMod/android_external_chromium-trace" groups="pdk" />
-  <project path="external/clang" name="CyanogenMod/android_external_clang" groups="pdk" />
+  <project path="external/clang" name="platform/external/clang" groups="pdk" remote="linaro" revision="linaro_android_4.3.1" />
   <project path="external/compiler-rt" name="CyanogenMod/android_external_compiler-rt" groups="pdk" />
   <project path="external/crda" name="CyanogenMod/android_external_crda" />
   <project path="external/dexmaker" name="CyanogenMod/android_external_dexmaker" />
@@ -150,7 +150,7 @@
   <project path="external/libyuv" name="CyanogenMod/android_external_libyuv" groups="libyuv" />
   <project path="external/linux-tools-perf" name="CyanogenMod/android_external_linux-tools-perf" />
   <project path="external/littlemock" name="CyanogenMod/android_external_littlemock" />
-  <project path="external/llvm" name="CyanogenMod/android_external_llvm" groups="pdk" />
+  <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="linaro" revision="linaro_android_4.3.1" />
   <project path="external/lsof" name="CyanogenMod/android_external_lsof" />
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
