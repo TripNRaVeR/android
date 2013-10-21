@@ -80,6 +80,7 @@
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" />
   <project path="external/expat" name="CyanogenMod/android_external_expat" groups="pdk" />
   <project path="external/eyes-free" name="CyanogenMod/android_external_eyes-free" />
+  <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" />
   <project path="external/fdlibm" name="CyanogenMod/android_external_fdlibm" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="tripndroid" revision="master-43" />
   <project path="external/flac" name="CyanogenMod/android_external_flac" groups="pdk" />
