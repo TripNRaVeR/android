@@ -59,7 +59,7 @@
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
   <project path="external/bison" name="CyanogenMod/android_external_bison" groups="pdk" />
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" />
-  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" groups="pdk" />
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" remote="caf" revision="kk_3.5_rb1.11" groups="pdk" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" groups="pdk" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
@@ -92,7 +92,7 @@
   <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" remote="caf" revision="kk_2.7_rb1.9" />
+  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" remote="caf" revision="kk_3.5_rb1.11" />
   <project path="external/clang" name="platform/external/clang" remote="linaro" revision="linaro_android_4.4" groups="pdk" />
   <project path="external/compiler-rt" name="CyanogenMod/android_external_compiler-rt" groups="pdk" />
   <project path="external/crda" name="CyanogenMod/android_external_crda" />
@@ -205,7 +205,7 @@
   <project path="external/neven" name="CyanogenMod/android_external_neven" />
   <project path="external/nist-pkits" name="platform/external/nist-pkits" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project path="external/nist-sip" name="CyanogenMod/android_external_nist-sip" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="caf" revision="kk_2.7_rb1.9" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="caf" revision="kk_3.5_rb1.11" />
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" />
   <project path="external/oauth" name="CyanogenMod/android_external_oauth" />
   <project path="external/objenesis" name="platform/external/objenesis" remote="aosp" revision="refs/tags/android-4.4_r1" />
@@ -250,12 +250,12 @@
   <project path="external/tagsoup" name="CyanogenMod/android_external_tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" remote="linaro" revision="linaro_android_4.4" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project path="external/tinyalsa" name="platform/external/tinyalsa" remote="caf" revision="kk_2.7_rb1.9" groups="pdk" />
+  <project path="external/tinyalsa" name="platform/external/tinyalsa" remote="caf" revision="kk_3.5_rb1.11" groups="pdk" />
   <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project path="external/tinyxml" name="CyanogenMod/android_external_tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="CyanogenMod/android_external_tinyxml2" groups="pdk" />
   <project path="external/tremolo" name="CyanogenMod/android_external_tremolo" groups="pdk" />
-  <project path="external/v8" name="platform/external/v8" remote="caf" revision="kk_2.7_rb1.9" groups="pdk" />
+  <project path="external/v8" name="platform/external/v8" remote="caf" revision="kk_3.5_rb1.11" groups="pdk" />
   <project path="external/valgrind" name="CyanogenMod/android_external_valgrind" groups="pdk" />
   <project path="external/vim" name="CyanogenMod/android_external_vim" />
   <project path="external/webp" name="CyanogenMod/android_external_webp" />
@@ -300,7 +300,7 @@
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="tripndroid" revision="master-44" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="tripndroid" revision="master-44" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
@@ -318,7 +318,7 @@
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project path="packages/apps/AndroidTerm" name="android_packages_apps_AndroidTerm" remote="tripndroid" revision="master-43" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" remote="caf" revision="kk_3.5_rb1.11" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
@@ -390,10 +390,10 @@
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" revision="refs/tags/android-4.4_r1" groups="pdk" />
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="caf" revision="kk_2.7_rb1.9" groups="pdk" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="caf" revision="kk_3.5_rb1.11" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.4_r1" groups="pdk,tools" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
-  <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
+  <project path="system/core" name="android_system_core" remote="tripndroid" revision="master-44" groups="pdk" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
