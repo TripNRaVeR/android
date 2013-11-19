@@ -337,7 +337,7 @@
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="CyanogenMod/android_packages_apps_InCallUI" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
-  <project path="packages/apps/Launcher3" name="CyanogenMod/android_packages_apps_Launcher3" />
+  <project path="packages/apps/Launcher4" name="android_packages_apps_Launcher4" remote="tripndroid" revision="master-44" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
   <project path="packages/apps/Music" name="android_packages_apps_Music" remote="tripndroid" revision="master-43" />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />
