@@ -92,7 +92,7 @@
   <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
-  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" remote="caf" revision="kk_2.7_rb1.11" />
+  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
   <project path="external/clang" name="platform/external/clang" remote="linaro" revision="linaro_android_4.4" groups="pdk" />
   <project path="external/compiler-rt" name="CyanogenMod/android_external_compiler-rt" groups="pdk" />
   <project path="external/crda" name="CyanogenMod/android_external_crda" />
@@ -255,7 +255,7 @@
   <project path="external/tinyxml" name="CyanogenMod/android_external_tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="CyanogenMod/android_external_tinyxml2" groups="pdk" />
   <project path="external/tremolo" name="CyanogenMod/android_external_tremolo" groups="pdk" />
-  <project path="external/v8" name="platform/external/v8" remote="caf" revision="kk_2.7_rb1.11" groups="pdk" />
+  <project path="external/v8" name="CyanogenMod/android_external_v8" />
   <project path="external/valgrind" name="CyanogenMod/android_external_valgrind" groups="pdk" />
   <project path="external/vim" name="CyanogenMod/android_external_vim" />
   <project path="external/webp" name="CyanogenMod/android_external_webp" />
