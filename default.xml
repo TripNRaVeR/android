@@ -171,7 +171,7 @@
   <project path="external/libpcap" name="CyanogenMod/android_external_libpcap" />
   <project path="external/libphonenumber" name="CyanogenMod/android_external_libphonenumber" />
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" />
-  <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" />
+  <project path="external/libpng" name="platform/external/libpng" remote="caf" revision="kk_2.7_rb1.13" groups="pdk" />
   <project path="external/libppp" name="CyanogenMod/android_external_libppp" />
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" groups="pdk" />
